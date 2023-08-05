@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+        <h1>Green Home</h1>
+    </header>
+
+    <nav>
+        <ul>
+             <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes_somos.html" target="_self">¿Quienes somos?</a></li>
+			 <li><a href="empleo.html">Iniciar Sesión</a></li>
+            <li><a href="#">Empienza Gratis</a></li>
+        </ul>
+    </nav>
+    <body>
+	<div class="container">
+	<div class="image-coniner"> 
+				<img src="quienesomos.png" alt="nuestro proyecto">
+			</div>
+			<div class="content">
+    	<h1>Quiénes Somos</h1>
+        <p>Creemos en el poder de poner a las personas primero Porque el potencial de las personas para hacer algo increíble tiene todo que ver con estar en el rol correcto, en el equipo correcto, en el momento correcto. Ahí es donde entra Green house </p>
+		<p>nuestra misión es ayudar a todas las empresas a ser excelentes en la contratación. Porque cuando lo son, las empresas tienen la confianza para soñar en grande, pensar más audazmente y contratar para lo que sigue. </p>	
+							       </div>
+		   <div class="image-container">
+            <img src="imagen_derecha.jpg" alt="Imagen Derecha">
+			
+			<a href="pagina_registro.html" class="registro-button" target="_self">¡Empienza ya!</a>
+        </div>
+</body>
+</html>

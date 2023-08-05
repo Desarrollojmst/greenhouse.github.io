@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main img{
+  display: block; /* Asegura que la imagen sea un bloque para poder aplicar márgenes y alineación */
+  max-width: 100%; /* La imagen no será más grande que el ancho del contenedor padre */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  /*border: 2px solid #333; /* Agrega un borde a la imagen */
+  /*border-radius: 8px; /* Aplica esquinas redondeadas al borde */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a la imagen*/
+ 
+}
+
+
+main img {
+
+}
+
+
+.image-container {
+  position: relative; 
+}
+
+.ingreso-button {
+  /* Estilos anteriores */
+}
+
+.registro-button {
+  display: block; 
+  margin-top: 10px; 
+  width: 100%;
+  text-align: center; 
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.registro-button:hover {
+  background-color: #666;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 24px;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  main img {
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 80px; 
+  text-align: center;
+  line-height: 30px; 
+  border-radius: 80%; 
+  background-color: #444; 
+}
+
+nav ul li a:hover {
+  background-color: #666; 
+}
+
+
+/*menu*/
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
