@@ -1,2 +1,2 @@
 # greenhouse.github.io
-Green House
+Green Home
