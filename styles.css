@@ -6,14 +6,14 @@ body {
 }
 
 header {
-    background-color: #FF8400;
+    background-color: #EBA327;
     color: #fff;
     text-align: center;
     padding: 10px;
 }
 
 nav {
-    background-color: #FF8400;
+    background-color: #EBA327;
     text-align: center;
     padding: 20px;
 }
@@ -30,12 +30,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FF8400;
+    color: #EBA327;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    border-bottom: 2px solid #FF8400;
+    border-bottom: 2px solid #EBA327;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 }
 
 footer {
-    background-color: #FF8400;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -54,7 +54,7 @@ main img{
   display: block; /* Asegura que la imagen sea un bloque para poder aplicar márgenes y alineación */
   max-width: 100%; /* La imagen no será más grande que el ancho del contenedor padre */
   margin: 0 auto; /* Centra la imagen horizontalmente */
-  /*border: 2px solid #FF8400; /* Agrega un borde a la imagen */
+  /*border: 2px solid #333; /* Agrega un borde a la imagen */
   /*border-radius: 8px; /* Aplica esquinas redondeadas al borde */
   /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a la imagen*/
  
