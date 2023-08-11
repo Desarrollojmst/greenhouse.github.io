@@ -137,13 +137,13 @@ nav ul li a {
   display: block;
   width: 80px; 
   text-align: center;
-  line-height: 30px; 
+  line-height: 10px; 
   border-radius: 80%; 
   background-color: #FF8400; 
 }
 
 nav ul li a:hover {
-  background-color: #666; 
+  background-color: #4C7031; 
 }
 
 
