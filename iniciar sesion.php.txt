@@ -1,0 +1,30 @@
+<?php
+$servername = "localhost";  // Cambiar si es necesario
+$username = "nombre_usuario";
+$password = "contrasena_usuario";
+$dbname = "nombre_base_de_datos";
+
+// Crear conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Verificar la conexión
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+
+// Obtener datos del formulario
+$nombre = $_POST['nombre'];
+$email = $_POST['email'];
+$contrasena = password_hash($_POST['contrasena'], PASSWORD_DEFAULT);  // Hash de la contraseña
+
+// Insertar datos en la base de datos
+$sql = "INSERT INTO usuarios (nombre, email, contrasena) VALUES ('$nombre', '$email', '$contrasena')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Registro exitoso. ¡Bienvenido, $nombre!";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
