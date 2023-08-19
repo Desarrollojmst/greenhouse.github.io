@@ -195,6 +195,17 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* Botón de envío */
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
 h1 {
     color: #541D09;
 }
