@@ -195,6 +195,12 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* Formulario de registro */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Botón de envío */
 button {
   padding: 10px;
