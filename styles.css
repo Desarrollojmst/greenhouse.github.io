@@ -79,7 +79,7 @@ main img {
   margin-top: 10px; 
   width: 100%;
   text-align: center; 
-  background-color: #444;
+  background-color: #4C7031;
   color: #FFF;
   border: none;
   border-radius: 5px;
@@ -88,7 +88,7 @@ main img {
 }
 
 .registro-button:hover {
-  background-color: #666;
+  background-color: #4C7031;
 }
 
 
