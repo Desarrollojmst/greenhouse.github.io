@@ -85,10 +85,16 @@ main img {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+    
 }
 
 .registro-button:hover {
   background-color: #4C7031;
+  display: inline-block;
+  white-space: nowrap;
+  flex-basis: auto;
+  width: auto;
+  font-size: .875rem;
 }
 
 
