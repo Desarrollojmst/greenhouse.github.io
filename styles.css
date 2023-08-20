@@ -82,13 +82,13 @@ main img {
   background-color: #4C7031;
   color: #FFF;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
   white-space: nowrap;
   flex-basis: auto;
   width: auto;
-  font-size: .875rem;
+  font-size: 5rem;
     
 }
 
